@@ -8,7 +8,7 @@ import java.sql.PreparedStatement;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public class ConexaoSQLiteFunc implements Conexao {
 

@@ -7,7 +7,7 @@ package model;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public class Republica {
     

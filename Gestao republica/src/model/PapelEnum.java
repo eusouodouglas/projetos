@@ -8,8 +8,22 @@ package model;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public enum PapelEnum {
+    REPRESENTANTE(1),
+    MORADOR(2),
+    SEMTETO(3);
+    
+    private final int codigo;
+    
+    private PapelEnum(int codigo){
+        this.codigo = codigo;
+    }
+           
+    public int getCodigo(){
+        return codigo;
+    }
+    
     
 }

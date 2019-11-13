@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public class Lancamento {
     

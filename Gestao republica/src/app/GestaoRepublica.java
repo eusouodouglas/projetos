@@ -7,7 +7,7 @@ package app;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public class GestaoRepublica {
 

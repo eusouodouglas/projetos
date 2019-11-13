@@ -7,8 +7,21 @@ package model;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public enum ReclamacaoSugestaoEnum {
+    
+    RECLAMACAO(1),
+    SUGESTAO(2);
+    
+    private final int codigo;
+    
+    private ReclamacaoSugestaoEnum(int codigo){
+        this.codigo = codigo;
+    }
+    
+    public int getCodigo(){
+        return codigo;
+    }
     
 }

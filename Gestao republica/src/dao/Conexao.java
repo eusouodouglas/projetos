@@ -3,7 +3,7 @@ package dao;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public interface Conexao {
     

@@ -7,8 +7,20 @@ package model;
 
 /**
  *
- * @author Douglas
+ * @author Douglas e Francisco
  */
 public enum LancamentoEnum {
+    RECEITA(1), 
+    DESPESA(2);
     
+    private final int codigo;
+    
+    private LancamentoEnum(int codigo){
+        this.codigo = codigo;
+    }
+    
+    public int getCodigo(){
+        return codigo;
+    }
+
 }
